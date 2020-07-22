@@ -21,13 +21,6 @@ let persona = "Pablo";
 // } else {
 //   console.error("El número no es 10");
 // }
-
-// if (numero % 2 == 0) {
-//   console.log("El número es par");
-// } else {
-//   console.warn("El número no es par");
-// }
-
 if (numero == 10) {
   console.log("El número es 10");
 } else if (numero > 10) {
@@ -36,11 +29,29 @@ if (numero == 10) {
   console.log("El número es menor que 10");
 }
 
+// if (numero % 2 == 0) {
+//   console.log("El número es par");
+// } else {
+//   console.warn("El número no es par");
+// }
+
+let n = "10";
+let f = 10;
+
+if (n == f) {
+  console.log("n es igual a f");
+}
+if (n === f) {
+  console.log("n  es igual a f");
+} else {
+  console.log("n no es igual a f");
+}
+
 //tarea: condicional que devuelva si un número es impar
 //tarea 2: Condicional que tome dos números:
-// si el primero es menor que el segundo haga una suma
-//si el primero es mayor que el segundo que haga una resta
-//si el primero es igual al segundo que haga una multiplicación
+// si el primero es menor que el segundo, haga una suma
+//si el primero es mayor que el segundo, que haga una resta
+//si el primero es igual al segundo, que haga una multiplicación
 
 //tarea
 if (numero % 2 !== 0) {
