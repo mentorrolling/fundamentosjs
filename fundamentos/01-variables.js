@@ -14,4 +14,3 @@ if (true) {
 }
 
 console.log(valorDado);
-//se crean variables de scope
