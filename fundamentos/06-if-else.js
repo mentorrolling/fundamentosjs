@@ -1,73 +1,66 @@
-let numero = 50;
-let numero2 = 50;
-
-let resultado = 0;
-
-let persona = "Pablo";
+let numero = 40;
+let numeroStr = "20";
 
 // if (numero >= 10) {
-//   console.log("El número es mayor o igual que 10");
+//   console.log("El numero es mayor o igual que 10");
+// } else {
+//   console.error("El numero no cumple la condición");
 // }
 
-// if (numero >= 10) {
-//   console.log("El número es mayor o igual que 10");
+// if (numero === numeroStr) {
+//   console.log("Los numeros tienen el mismo valor");
 // } else {
-//   console.warn("El número no cumple la condición");
+//   console.error("Que estás haciendo!");
 // }
 
-//no es lo mismo === a ==
-// if (numero == 10) {
-//   console.log("El número es 10");
+// if (numero === 10) {
+//   console.log("El número es igual a 10");
+// } else if (numero > 10) {
+//   console.log("El número es mayor que 10");
 // } else {
-//   console.error("El número no es 10");
+//   console.log("El número es menor que 10");
 // }
-if (numero == 10) {
-  console.log("El número es 10");
-} else if (numero > 10) {
-  console.log("El número es mayor que 10");
-} else {
-  console.log("El número es menor que 10");
-}
 
 // if (numero % 2 == 0) {
 //   console.log("El número es par");
-// } else {
-//   console.warn("El número no es par");
 // }
 
-let n = "10";
-let f = 10;
+// let texto = "Hola Javascript";
 
-if (n == f) {
-  console.log("n es igual a f");
-}
-if (n === f) {
-  console.log("n  es igual a f");
+// if (texto == "Hola") {
+//   console.warn('El texto no es igual a "Hola"');
+// } else if (texto == "hola javascript") {
+//   console.warn('El texto no es igual a "hola javascript"');
+// } else {
+//   console.error("El texto no es igual a otra cosa");
+// }
+
+let a = 20;
+let b = 45;
+
+if (a > b) {
+  console.log(`La suma entre ${a} y ${b} es igual a ${a + b}`);
+} else if (a < b) {
+  console.log(`La resta entre ${b} y ${a} es igual a ${b - a}`);
 } else {
-  console.log("n no es igual a f");
+  console.log(`La multiplicacion entre ${a} y ${b} es igual a ${a * b}`);
 }
+let edad = 12;
+let tutor = false;
 
-//tarea: condicional que devuelva si un número es impar
-//tarea 2: Condicional que tome dos números:
-// si el primero es menor que el segundo, haga una suma
-//si el primero es mayor que el segundo, que haga una resta
-//si el primero es igual al segundo, que haga una multiplicación
-
-//tarea
-if (numero % 2 !== 0) {
-  console.log("El número es impar");
+if (edad >= 18) {
+  console.log("Puede entrar y disfrutar de la fiesta");
+} else if (tutor) {
+  console.log("Puede acceder por que va acompañado");
 } else {
-  console.warn("El número no es impar");
+  console.error("No puede disfrutar de la fiesta");
 }
 
-//tarea 2
-if (numero < numero2) {
-  resultado = numero + numero2;
-} else if (numero > numero2) {
-  resultado = numero - numero2;
-} else if (numero == numero2) {
-  resultado = numero * numero2;
-}
-console.log("El resultado de la operación es " + resultado);
+let chocolate = false;
+let cafe = true;
 
-console.log(`El resultado de la operación es ${resultado}`);
+if (chocolate || cafe) {
+  console.warn("No puedo consumir el producto");
+} else {
+  console.log("Puedo Comer todo lo que quiera");
+}
