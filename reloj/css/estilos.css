@@ -8,3 +8,11 @@
   color: white;
   padding: 10px;
 }
+
+#timezone {
+  color: white;
+}
+
+.bordes {
+  border-radius: 10px;
+}
