@@ -1,0 +1,18 @@
+#fecha {
+  color: white;
+  font-size: 1.3rem;
+}
+
+#hora {
+  font-size: 3rem;
+  color: white;
+  padding: 10px;
+}
+
+#timezone {
+  color: white;
+}
+
+.bordes {
+  border-radius: 10px;
+}
