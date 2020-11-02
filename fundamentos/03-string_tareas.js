@@ -7,13 +7,13 @@ let nombre = "Albertito",
 let nombreEnMayuscula = nombre.toUpperCase();
 let apellidoEnMinuscula = apellido.toLowerCase();
 
-let primeraLetra = nombre.charAt(0);
+let primeraLetra = nombre.charAt(4);
 
 let cantidadDeLetras = apellido.length;
 
 let nombreCompleto = "El nombre completo es: " + nombre + " " + apellido;
 
-let nombreCompleto2 = `El nombre completo es: ${(nombre, apellido)}`;
+let nombreCompleto2 = `El nombre completo es: ${nombre} ${apellido}`;
 
 let str = apellido.substr(1, 3);
 

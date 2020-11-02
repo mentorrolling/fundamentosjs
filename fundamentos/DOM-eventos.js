@@ -26,7 +26,7 @@ ropa.map(function (item) {
   let elemento = document.createElement("div");
   elemento.className = "col-md-4";
 
-  let card = `<div class="card mb-3 ">
+  let card = `<div class="card mb-3">
   <div class="card-body">
   <h5 class="card-title">${item.producto}</h5>
   <p class="card-text"><strong>Detalle: </strong>${item.detalle}</p>

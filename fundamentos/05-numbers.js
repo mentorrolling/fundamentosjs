@@ -6,10 +6,10 @@ edad -= 1;
 
 let peso = 78;
 
-let sandwich = 1;
+let sandwich = 3;
 
 // peso += sandwich;
-let futbol = 3;
+let futbol = 1;
 
 let vino = 256.3;
 let carrito = Math.round(vino * 100 * 3) / 100;
