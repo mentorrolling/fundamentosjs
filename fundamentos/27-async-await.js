@@ -3,6 +3,10 @@
 const api_key = "yGsEUd2oFkyppcVxZBZ5H2aB7uQLZRIf";
 
 const getImagen = async () => {
+  /*  La declaración try...catch señala un bloque de
+  instrucciones a intentar(try), y especifica una
+  respuesta si se produce una excepción(catch). */
+
   try {
     const resp = await fetch(
       `https://api.giphy.com/v1/gifs/random?api_key=${api_key}`
